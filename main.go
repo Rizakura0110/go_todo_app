@@ -12,6 +12,7 @@ import (
 )
 
 func main() {
+	// test
 	if len(os.Args) != 2 {
 		log.Printf("need port number\n")
 		os.Exit(1)
