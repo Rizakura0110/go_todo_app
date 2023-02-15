@@ -6,6 +6,9 @@ services:
     build:
       args:
         - target=dev
+    environment:
+      TO_DO_ENV: dev
+      PORT: 8080
     volumes:
       - .:/app
     ports:
